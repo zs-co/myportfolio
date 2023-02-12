@@ -1,5 +1,5 @@
 <template>
-    <div class="projects">
+    <div class="projects" ref="projects">
         <h1>Projects</h1>
         <div class="projects__list">
             <div class="flex flex-col" v-for="project in projects" :key="project.id">

@@ -388,6 +388,8 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      'display': ['Oswald'],
+      'body': ['"Open Sans"'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
