@@ -100,10 +100,6 @@ export default {
                     element.isActive = false;
                 } else {
                     element.isActive = true;
-                    let el = this.$refs.element['name'];
-                    let top = el.offsetTop;
-
-                    window.scrollTo(0, top);
                 }
             });
         },
